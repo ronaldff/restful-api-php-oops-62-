@@ -1,0 +1,20 @@
+Use Postman
+-----------
+@read api 
+---------
+1)url => http://localhost/Rest-api/product/read.php
+2)method => get
+
+
+-------------
+Create api
+-------------
+1)url => http://localhost/Rest-api/product/create.php
+2)method => Post
+3)json raw data => {
+"name" : "awesome products",
+"price" : "340",
+"description" : "lorem ipsum",
+"category_id" : 5
+}
+4) all fields are manditory
